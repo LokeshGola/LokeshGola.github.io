@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <!-- box-icons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
 </head>
 <body>
     Hello World, adding HTML based portfolio here.
+
+    <!-- Create a portfolio with the following components using the following attributes:
+            Navbar : id="nav-menu"
+            Home section : id="home"
+            About section : id="about" class="about section"
+            Skills section : id="skills"
+            Projects section : id="projects"
+            Contact section : id="contact" -->
+
+    <!-- Navbar : id="nav-menu" -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <!-- double underscore in class  -->
+                <a href="#" class="nav__logo">Lokesh</a>  
+            </div>
+                <!-- double underscore in class  -->
+            <div id="nav-menu" class="nav__menu">
+                <!-- The elements within the navbar linked to the above 4 sections should have the following.
+                    Element linked to Home section : class="nav-link home"
+                    Element linked to About section : class="nav-link about"
+                    Element linked to Skills section : class="nav-link skills"
+                    Element linked to Projects section : class="nav-link projects"
+                    Element linked to Contact section : class="nav-link contact"
+                    Element linked to Resume : class="nav-link resume" -->
+                <ul>
+                    <li class="nav__item"><a href="#" class="nav-link home">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav-link about">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav-link skills">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav-link projects">Projects</a></li>
+                    <li class="nav__item"><a href="#" class="nav-link contact">Contact</a></li>
+                    <li class="nav__item"><a href="#" class="nav-link resume">Resume</a></li>
+                </ul>
+            </div>
+
+            <div id="nav-toggle" class="nav__toggle">
+                <i class='bx bx-menu' ></i>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Home section : id="home" -->
+    <div id="home"></div>
+
+    <!-- About section : id="about" class="about section" -->
+    <div id="about"></div>
+
+    <!-- Skills section : id="skills" -->
+    <div id="skills"></div>
+
+    <!-- Projects section : id="projects" -->
+    <div id="projects"></div>
+
+    <!-- Contact section : id="contact" -->
+    <div id="contact"></div>
+
+
 </body>
+<script src="/scripts/index.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 </html>
