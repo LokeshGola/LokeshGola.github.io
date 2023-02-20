@@ -132,7 +132,7 @@ img{
     .nav__menu{
         position: fixed;
         top: var(--header-height);
-        right: 0;
+        right: -100%;
         width: 80%;
         height: 100%;
         padding: 2rem;
@@ -151,10 +151,78 @@ img{
     }
     .nav-link:hover::after{
         position: absolute;
+        content: "";
+        width: 100%;
+        height: 0.18rem;
+        left: 0;
+        top: 2rem;
+        background-color: var(--first-color);
+    }
+    .nav__logo{
+        color: var(--second-color);
+    }
+    .nav__toggle{
+        color: var(--second-color);
+        font-size: 1.5rem;
+        cursor: pointer;
     }
 }
 /*=== Active menu === */
 
+.active::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
 /*=== Show Menu === */
+.show{
+    right: 0;
+}
 
 /*=== Home === */
+.home{
+    height: calc(100vh - 3rem);
+    row-gap: 1rem;
+}
+.home__data{
+    align-self: center;
+}
+.home__title{
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+}
+.home__title-color{
+    color: var(--first-color);
+}
+.home__social{
+    display: flex;
+    flex-direction: column;
+}
+.home__social-icon{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: var(--second-color);
+}
+.home__social-icon:hover{
+    color: var(--first-color);
+}
+.home-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+}
+
+/*=== Buttons === */
+
+
+/*=== About === */
+
+
+/*=== Skills === */
