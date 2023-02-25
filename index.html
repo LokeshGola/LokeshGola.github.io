@@ -38,12 +38,14 @@
                     Element linked to Contact section : class="nav-link contact"
                     Element linked to Resume : class="nav-link resume" -->
                 <ul>
-                    <li class="nav__item"><a href="#" class="nav-link home">Home</a></li>
-                    <li class="nav__item"><a href="#" class="nav-link about">About</a></li>
-                    <li class="nav__item"><a href="#" class="nav-link skills">Skills</a></li>
-                    <li class="nav__item"><a href="#" class="nav-link projects">Projects</a></li>
-                    <li class="nav__item"><a href="#" class="nav-link contact">Contact</a></li>
-                    <li class="nav__item"><a href="#" class="nav-link resume">Resume</a></li>
+                    <li class="nav__item"><a href="#home" class="nav-link home">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav-link about">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav-link skills">Skills</a></li>
+                    
+                                 <!-- id in below line should be as 'projects' instead of 'work' -->
+                    <li class="nav__item"><a href="#work" class="nav-link projects">Projects</a></li>   
+                    <li class="nav__item"><a href="#contact" class="nav-link contact">Contact</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav-link resume">Resume</a></li>
                 </ul>
             </div>
 
@@ -90,6 +92,10 @@
     </section>
 
     <!-- Skills section : id="skills" -->
+
+            <!-- Each skills card in the Skills section should have class="skills-card" and the following:
+                    Image : class="skills-card-img"
+                    Name : class="skills-card-name" -->
     <section class="skills section" id="skills">
         <h2 class="section-title">Skills</h2>
 
@@ -146,15 +152,73 @@
                     <div class="skills__bar skills__java"></div>
                 </div>
             </div>
+
+            <div>
+                <img class="skills__img" src="/assets/macbook-air-on-desk.jpg" alt="">
+            </div>
         </div>
 
-    </section>
+    </section> 
     
-    <!-- Projects section : id="projects" -->
-    <div id="projects"></div>
+    <!-- Projects section : id="projects" --> <!--( work) -->
+    <!-- <div id="projects"></div> -->
+    <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+            <div class="work__img">
+                <img src="assets/work_10.webp" alt="">
+            </div>
+            <div class="work__img">
+                <img src="assets/work_3.webp" alt="">
+            </div>
+            <div class="work__img">
+                <img src="assets/work_9.webp" alt="">
+            </div>
+            <div class="work__img">
+                <img src="assets/work_1.jpg" alt="">
+            </div>
+            <div class="work__img">
+                <img src="assets/work_8.jpg" alt="">
+            </div>
+           
+            <div class="work__img">
+                <img src="assets/work_11.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
     <!-- Contact section : id="contact" -->
     <div id="contact"></div>
+        <!-- Contact elements must have the following IDs:
+            GitHub profile link : id="contact-github"
+            LinkedIn profile link : id="contact-linkedin"
+            Phone number : id="contact-phone"
+            Email address : id="contact-email" -->
+
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <form action="" class="contact__form">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                <input type="button" value="Enviar" class="contact__button button">
+            </form>
+        </div>
+    </section>
+    
+    <Footer class="footer">
+        <p class="footer__title">Lokesh</p>
+
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#" class="footer__icon"></a>
+        </div>
+    </Footer>
 
 
 </body>

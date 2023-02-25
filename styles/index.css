@@ -300,13 +300,105 @@ img{
 .skills__java{
     width: 90%;
 }
-/*=== Skills === */
+.skills__img{
+    border-radius: 0.5rem;
+}
+/*=== Work === */
+.work{
+    text-align: center;
+}
+.work__container{
+    row-gap: 2rem;
+}
+.work__img{
+    box-shadow: 0 4px 25px rgba(14,36,49,0.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    /* width: max-content; */
+}
+.work__img img{
+   transition: 1s;
+   cursor: pointer;
+}
+.work__img img:hover{
+    transform: scale(1.1);
+    
+ }
 
+/*=== Contact === */
+.contact__input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+}
+.contact__button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
 
-/*=== Skills === */
+}
 
+/*=== Footer === */
+.footer{
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
+.footer__title{
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+.footer__social{
+    margin-bottom: var(--mb-4);
+}
+.footer__icon{
+    font-size: 1.5rem;;
+    color: #fff;
+    margin: var(--mb-2);
+}
 
-/*=== Skills === */
+/*=== Media Queries === */
+@media screen and (min-width:768) {
+    body{
+        margin: 0;
+    }
+    .section{
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .section-title{
+        margin-bottom: var(--mb-6);
+    }
+    .section-title::after{
+        width: 80px;
+        top: 3rem;
+    }
 
-
-/*=== Skills === */
+    .nav{
+        height: calc(var(--header-height) 1rem);
+    }
+    .nav__list{
+        display: flex;
+        padding-top: 0;
+    }
+    .nav__item{
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+    }
+    .nav__toggle{
+        display: none;
+    }
+    .nav__link{
+        color: var(--second-color);
+    }
+}
