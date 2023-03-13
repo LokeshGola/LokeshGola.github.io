@@ -26,10 +26,11 @@
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
-    }
+    } 
 }
 
 /*=== margins === */
+
 :root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
@@ -41,7 +42,7 @@
 
 /*=== Z index === */
 :root{
-    --z-black: -10;
+    --z-black: -10;   /* z-back or z-black */
     --z-normal: 1;
     --z-tooltip: 10;
     --z-fixed: 100;
@@ -77,6 +78,7 @@ img{
     display: block;
 }
 /*=== class css === */
+
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
@@ -100,7 +102,9 @@ img{
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
+
 /*=== layout === */
+
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -121,24 +125,27 @@ img{
 }
 
 /*=== nav === */
+
 .nav{
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: var(--font-semi);
+    font-weight: var(--font-semi);
 }
-@media screen and (max-width:768px) {
+
+ @media screen and (max-width:768px) {
     .nav__menu{
         position: fixed;
         top: var(--header-height);
-        right: -100%;
+        right: -100%;      
         width: 80%;
         height: 100%;
         padding: 2rem;
         background-color: var(--second-color);
         transition: 0.5s;
     }
+}
     .nav__item{
         margin-bottom: var(--mb-4);
     }
@@ -166,7 +173,7 @@ img{
         font-size: 1.5rem;
         cursor: pointer;
     }
-}
+
 /*=== Active menu === */
 
 .active::after{
@@ -180,11 +187,13 @@ img{
 }
 
 /*=== Show Menu === */
-.show{
+ .show{
     right: 0;
 }
+ 
 
 /*=== Home === */
+
 .home{
     height: calc(100vh - 3rem);
     row-gap: 1rem;
@@ -249,6 +258,7 @@ img{
 }
 
 /*=== Skills === */
+
 .skills__container{
     row-gap: 2rem;
     text-align: center;
@@ -288,6 +298,8 @@ img{
     border-radius: 0.5rem;
     z-index: var(--z-black);  /* or --z-back */
 }
+
+
 .skills__html{
     width: 80%;
 }
@@ -303,7 +315,9 @@ img{
 .skills__img{
     border-radius: 0.5rem;
 }
+
 /*=== Work === */
+
 .work{
     text-align: center;
 }
@@ -314,7 +328,6 @@ img{
     box-shadow: 0 4px 25px rgba(14,36,49,0.15);
     border-radius: 0.5rem;
     overflow: hidden;
-    /* width: max-content; */
 }
 .work__img img{
    transition: 1s;
@@ -324,9 +337,10 @@ img{
     transform: scale(1.1);
     
  }
+ 
 
 /*=== Contact === */
-.contact__input{
+ .contact__input{
     width: 100%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
@@ -344,7 +358,7 @@ img{
     cursor: pointer;
     margin-left: auto;
 
-}
+} */
 
 /*=== Footer === */
 .footer{
@@ -368,7 +382,7 @@ img{
 }
 
 /*=== Media Queries === */
-@media screen and (min-width:768) {
+@media screen and (min-width:768px) {
     body{
         margin: 0;
     }
@@ -385,8 +399,9 @@ img{
     }
 
     .nav{
-        height: calc(var(--header-height) 1rem);
+        height: calc(var(--header-height) + 1rem);
     }
+   
     .nav__list{
         display: flex;
         padding-top: 0;
@@ -396,9 +411,12 @@ img{
         margin-bottom: 0;
     }
     .nav__toggle{
-        display: none;
+        /* display: none; */
     }
-    .nav__link{
-        color: var(--second-color);
+    .nav-link{
+         color: var(--second-color); 
+        color: red;
     }
+   
 }
+
