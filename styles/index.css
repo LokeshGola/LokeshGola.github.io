@@ -378,7 +378,7 @@ img{
 .footer__icon{
     font-size: 1.5rem;;
     color: #fff;
-    margin: var(--mb-2);
+    margin: 0 var(--mb-2);
 }
 
 /*=== Media Queries === */
@@ -415,7 +415,7 @@ img{
     }
     .nav-link{
          color: var(--second-color); 
-        color: red;
+        /* color: red; */
     }
     .home{
         height: 100vh;
