@@ -469,3 +469,88 @@ img{
     }
 }
 
+/* modification from here  */
+/*==================== SKILLS ====================*/
+.tech__row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill_grid {
+    /* display: flex; */
+    gap: 50px;
+  }
+  
+  .skill__box {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 2.5rem 1.5rem 2.25rem 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(119px, auto));
+  }
+  
+  .skill__box div {
+    text-align: center;
+  }
+  
+  .skill__box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* .skills__container {
+    row-gap: 0;
+  } */
+
+  /* modification which i wrote own my own  */
+  .skill_grid{
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
+  .container {
+    /* border : 2px solid green; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    margin-bottom: var(--mb-4);
+
+  }
+  .stats{
+    margin: var(--mb-2);
+    text-align: center;
+    /* border: 1px solid red; */
+    display: block;
+    justify-content: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(119px, auto)); */
+
+  }
+  .github_stats{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* grid-template-columns: repeat(auto-fit, minmax(119px, auto)); */
+  }
+  .calendar{
+    margin: var(--mb-2);
+  }
+  @media screen and (max-width:768px){
+    
+      .github_stats{
+        /* border: 1px solid green; */
+        width: auto;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* grid-template-columns: repeat(auto-fit, minmax(119px, auto)); */
+        /* grid-template-columns: repeat(1 ,2fr); */
+      }
+     
+}
+ 
