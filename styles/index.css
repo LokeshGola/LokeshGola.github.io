@@ -553,4 +553,111 @@ img{
       }
      
 }
+
+/* modification in projects section */
+/*==================== PORTFOLIO ====================*/
+/* .bd-grid {
+    max-width: 1024px;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  } */
+  
+  .work__container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    gap: 20px;
+    row-gap: 2rem;
+  }
+  
+  .work__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  
+  .project-heading {
+    color: var(--first-color-alt);
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-size);
+  }
+  
+  .left_box_work,
+  .right_box_work {
+    border-radius: 10px;
+  
+    padding: 15px;
+  }
+  
+  .left_box_work > a {
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--first-color);
+    font-size: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .left_box_work {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .right_box_work {
+    width: 100%;
+    display: flex;
+    justify-content: content 100%;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .work__img {
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .project-para {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .work__img {
+    transition: 1s;
+    border-radius: 10px;
+  }
+  
+  .work__img img:hover {
+    transform: scale(1.1);
+  }
+  
+  .button_tool {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.4rem 0.75rem;
+    font-weight: var(--font-semi);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.8rem 2.75rem;
+    font-weight: var(--font-semi);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  }
  
