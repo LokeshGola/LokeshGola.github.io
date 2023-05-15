@@ -12,7 +12,8 @@
 
 /*=== colors === */
 :root{
-    --first-color: #4070f4;
+    /* --first-color: #4070f4; */
+    --first-color: #007c7c;
     --second-color:#0E2431;
 }
 :root{
@@ -358,7 +359,7 @@ img{
     cursor: pointer;
     margin-left: auto;
 
-} */
+} 
 
 /*=== Footer === */
 .footer{
@@ -456,6 +457,7 @@ img{
     }
     .contact__container{
         justify-items: center;
+        
     }
 }
 
@@ -660,4 +662,112 @@ img{
   .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
- 
+
+  /* =======  Modification in Contact section ======*/
+
+  /* .contact-content{
+    border: 2px solid red;
+    justify-content: flex-end;
+  } */
+  /* .left,.right {
+    border: 2px solid green;
+  } */
+  .contact-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  /* .contact__form{
+    border: 1px solid slategrey;
+  } */
+  .contact-container-left{
+    display: flex;
+    
+  }
+  .row{
+    margin: 30px 0;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(88, 101, 113);
+    font-weight: bold;
+  }
+  .row a{
+    color: rgb(88, 101, 113);
+  }
+  
+
+  
+  /* //////////////// */
+  /* ====== FOOTER Modification ====== */
+ .footer {
+    padding-top: 2rem;
+    text-align: center;
+    background-color: var(--first-color);
+}
+
+.footer_container {
+    row-gap: 2rem;
+}
+
+.footer_bg {
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer_title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer_subtitle {
+    font-size: var(--mb-3);
+}
+
+.footer_social {
+    font-size: 1.25rem;
+    margin: var(--mb-1);
+}
+
+.footer_social:hover {
+    color: var(--first-color-lighter);
+}
+
+.footer_copy {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-light);
+    margin-top: var(--mb-3);
+}
+
+.footer_title,
+.footer_subtitle,
+.footer_social {
+    color: #fff;
+} 
+
+/* ====== SCROLL UP ====== */
+ /* .scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    
+    opacity: 0.8;
+    padding: 0 .3rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.5s;
+}
+
+.scrollup:hover {
+    background-color: var(--first-color);
+}
+
+.scrollup_icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.show-scroll {
+    bottom: 5rem;
+}  
+*/
