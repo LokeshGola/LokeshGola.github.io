@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index.css">
-    <!-- box-icons link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/index.css">
+  <!-- box-icons link -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <script src="https://kit.fontawesome.com/3f612bd57e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <script src="https://kit.fontawesome.com/3f612bd57e.js" crossorigin="anonymous"></script>
 
-    <!-- links for github calander  -->
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-      <!-- links for github calander -->
+  <!-- links for github calander  -->
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <!-- links for github calander -->
 
 
-      <!-- links for technical skills and tools -->
-      <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-    <title>Lokesh Gola Portfolio</title>
-    <!-- links for technical skills and tools -->
+  <!-- links for technical skills and tools -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+  <title>Lokesh Gola Portfolio</title>
+  <!-- links for technical skills and tools -->
 
 
 </head>
-<body>
-    
 
-    <!-- Create a portfolio with the following components using the following attributes:
+<body>
+
+
+  <!-- Create a portfolio with the following components using the following attributes:
             Navbar : id="nav-menu"
             Home section : id="home"
             About section : id="about" class="about section"
@@ -47,160 +45,163 @@
             Projects section : id="projects"
             Contact section : id="contact" -->
 
-    <!-- Navbar : id="nav-menu" -->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <!-- double underscore in class  -->
-                <a href="#" class="nav__logo">Lokesh</a>  
-            </div>
-                <!-- double underscore in class  -->
-            <div id="nav-menu" class="nav__menu">
-                <!-- The elements within the navbar linked to the above 4 sections should have the following.
+  <!-- Navbar : id="nav-menu" -->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- double underscore in class  -->
+        <a href="#" class="nav__logo">Lokesh</a>
+      </div>
+      <!-- double underscore in class  -->
+      <div id="nav-menu" class="nav__menu">
+        <!-- The elements within the navbar linked to the above 4 sections should have the following.
                     Element linked to Home section : class="nav-link home"
                     Element linked to About section : class="nav-link about"
                     Element linked to Skills section : class="nav-link skills"
                     Element linked to Projects section : class="nav-link projects"
                     Element linked to Contact section : class="nav-link contact"
                     Element linked to Resume : class="nav-link resume" -->
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav-link home active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav-link about">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav-link skills">Skills</a></li>
-                    
-                                 <!-- id in below line should be as 'projects' instead of 'work' -->
-                    <li class="nav__item"><a href="#work" class="nav-link projects">Projects</a></li>   
-                    <li class="nav__item"><a href="#contact" class="nav-link contact">Contact</a></li>
-                    <!-- <li class="nav__item"><a href="#resume" class="nav-link resume">Resume</a></li> -->
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav-link home active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav-link about">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav-link skills">Skills</a></li>
 
-                    <!-- <li class="nav__item"><a href="Resume_folder/Lokesh_Gola_Resume.pdf" class="menu-btn nav-link resume" id="resume-button-1" download target="_blank">Resume <i style="font-size: 15px; "  class="fa fa-download" aria-hidden="true"></i></a></li> -->
+          <!-- id in below line should be as 'projects' instead of 'work' -->
+          <li class="nav__item"><a href="#work" class="nav-link projects">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav-link contact">Contact</a></li>
+          <!-- <li class="nav__item"><a href="#resume" class="nav-link resume">Resume</a></li> -->
 
-                    <li><a class="nav__item nav-link resume " id="resume-button-1"
-                        class="active"
-                        href="./Resume_folder/Lokesh_Gola_Resume.pdf"
-                        download="Lokesh-Gola-Resume"
-                        target="_blank"
-                        onclick="window.open(`https://drive.google.com/file/d/1PoudQZ_JXk_gNTCXnNJ0wtrjQKE9PSpy/view?usp=share_link`)"
-                        >Resume
-                        <!-- <i style="font-size: 15px; "  class="fa fa-download" aria-hidden="true"></i> -->
-                      </a></li>
-                </ul>
-            </div>
+          <!-- <li class="nav__item"><a href="Resume_folder/Lokesh_Gola_Resume.pdf" class="menu-btn nav-link resume" id="resume-button-1" download target="_blank">Resume <i style="font-size: 15px; "  class="fa fa-download" aria-hidden="true"></i></a></li> -->
 
-            <div id="nav-toggle" class="nav__toggle">
-                <i class='bx bx-menu' ></i>
-            </div>
-        </nav>
-    </header>
-    
-    <main class="l-main"> 
+          <li><a class="nav__item nav-link resume " id="resume-button-1" class="active"
+              href="./Resume_folder/Lokesh_Gola_Resume.pdf" download="Lokesh-Gola-Resume" target="_blank"
+              onclick="window.open(`https://drive.google.com/file/d/1PoudQZ_JXk_gNTCXnNJ0wtrjQKE9PSpy/view?usp=share_link`)"><button class="button">Resume</button>
+              <!-- <i style="font-size: 15px; "  class="fa fa-download" aria-hidden="true"></i> -->
+            </a></li>
+        </ul>
+      </div>
 
-        <!-- Home section : id="home" -->
-        <section  class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Lokesh</span><br>Web Designer</h1>
-                <a href="#" class="button">Contact</a>
-            </div>
+      <div id="nav-toggle" class="nav__toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
 
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" class="home__social-icon"> <i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/LokeshGola" class="home__social-icon"> <i class='bx bxl-github' ></i></a>   
-            </div>
+  <main class="l-main">
 
-            <div  class="home-img">
-                <img src="/assets/IMG_20220731_145925_.jpg-min.png" alt="">
-            </div>
-        </section>
+    <!-- Home section : id="home" -->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">Lokesh</span></h1>
+        <h2><span class="auto-type"></span></h2>
         
+        <a href="#contact" class="button">Contact</a>
+      </div>
 
-        <!-- About section : id="about" class="about section" -->
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" class="home__social-icon"> <i
+            class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/LokeshGola" class="home__social-icon"> <i class='bx bxl-github'></i></a>
+      </div>
 
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/IMG_20220731_145925.png" alt="">
-                </div>
-                <!-- The following must be present within elements with the respective IDs:
+      <div class="home-img">
+        <img src="/assets/IMG_20220731_145925_.jpg-min.png" alt="">
+      </div>
+    </section>
+
+
+    <!-- About section : id="about" class="about section" -->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/IMG_20220731_145925.png" alt="">
+        </div>
+        <!-- The following must be present within elements with the respective IDs:
                     Name : id="user-detail-name"
                     Formal introduction : id="user-detail-intro" -->
-                <h2 class="about__subtitle">I am Lokesh</h2>
-                <p class="about__text">An enthusiastic Full-stack Developer, a lifelong learner, and have a problem-solving mindset. Know Javascript, HTML, CSS, Java, spring boot, Data Structure, and algorithm and have 1200+ hours of hands-on experience working on projects. Looking forward to utilization current skillset and experience in the optimized growth of organization will work for.</p>
+        <h2 class="about__subtitle">I am Lokesh</h2>
+        <p class="about__text">An enthusiastic Full-stack Developer, a lifelong learner, and have a problem-solving
+          mindset. Know Javascript, HTML, CSS, Java, spring boot, Data Structure, and algorithm and have 1200+ hours of
+          hands-on experience working on projects. Looking forward to utilization current skillset and experience in the
+          optimized growth of organization will work for.</p>
 
-                <a href="Resume_folder/Lokesh_Gola_Resume.pdf" id="resume-button-2" download target="_blank">Download CV</a>
-            </div>
-        </section>
+        <a href="Resume_folder/Lokesh_Gola_Resume.pdf" class="resume-button" id="resume-button-2" download
+          target="_blank"><span>Download CV</span></a>
+      </div>
+    </section>
 
-        <!-- Skills section : id="skills" -->
+    <!-- Skills section : id="skills" -->
 
-                <!-- Each skills card in the Skills section should have class="skills-card" and the following:
+    <!-- Each skills card in the Skills section should have class="skills-card" and the following:
                         Image : class="skills-card-img"
                         Name : class="skills-card-name" -->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
 
-            <div class="skills__container bd-grid">
-                <div>
-                    <h2 class="skills__subtitle">Professional Skills</h2>
-                    <p class="skills__text"></p>
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Professional Skills</h2>
+          <p class="skills__text"></p>
 
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-html5 skills__icon'></i>
-                            <span class="skills__name">HTML</span>
-                        </div>
-                        <div>
-                            <span class="skills__percentage">80%</span>
-                        </div>
-
-                        <div class="skills__bar skills__html"></div>
-                    </div>
-
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-css3 skills__icon'></i>
-                            <span class="skills__name">CSS</span>
-                        </div>
-                        <div>
-                            <span class="skills__percentage">75%</span>
-                        </div>
-
-                        <div class="skills__bar skills__css"></div>
-                    </div>
-
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
-                            <span class="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div>
-                            <span class="skills__percentage">90%</span>
-                        </div>
-
-                        <div class="skills__bar skills__js"></div>
-                    </div>
-
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-java skills__icon' ></i>
-                            <span class="skills__name">JAVA</span>
-                        </div>
-                        <div>
-                            <span class="skills__percentage">90%</span>
-                        </div>
-
-                        <div class="skills__bar skills__java"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <img class="skills__img" src="/assets/macbook-air-on-desk.jpg" alt="">
-                </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-html5 skills__icon'></i>
+              <span class="skills__name">HTML</span>
+            </div>
+            <div>
+              <span class="skills__percentage">80%</span>
             </div>
 
-        </section> 
+            <div class="skills__bar skills__html"></div>
+          </div>
 
-     <!-- skills section start -->
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-css3 skills__icon'></i>
+              <span class="skills__name">CSS</span>
+            </div>
+            <div>
+              <span class="skills__percentage">75%</span>
+            </div>
+
+            <div class="skills__bar skills__css"></div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-javascript skills__icon'></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+
+            <div class="skills__bar skills__js"></div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-java skills__icon'></i>
+              <span class="skills__name">JAVA</span>
+            </div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+
+            <div class="skills__bar skills__java"></div>
+          </div>
+        </div>
+
+        <div>
+          <img class="skills__img" src="/assets/macbook-air-on-desk.jpg" alt="">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- skills section start -->
     <!-- <section class="skills" id="tech-stacks">
         <div class="max-width ">
             <h2 class="title ">Tech Stack</h2>
@@ -285,148 +286,115 @@
         </div>
         </div>
     </section>     -->
-           <!--====================== Skills section =======================-->
-           <section class="skills section" id="skills">
-            <div class="skill_grid">
-              <div>
-                <h2 class="section_title">Technical Skills</h2>
-                <span class="section_subtitle">My technical skills</span>
-    
-                <div class="skills__container container grid">
-                  <div>
-                    <div class="skills__content skills__open">
-                      <div class="skills__list grid">
-                        <div class="tech__row">
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="logos:java"
-                                height="40"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Java<br />
-                              </h3>
-                            </div>
-                          </div>
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="logos:spring-icon"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Spring<br />
-                              </h3>
-                            </div>
-                          </div>
-    
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                style="color: #65b743"
-                                icon="simple-icons:springboot"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Spring Boot<br />
-                              </h3>
-                            </div>
-                          </div>
-    
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="vscode-icons:file-type-html"
-                                height="40"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                HTML<br />
-                              </h3>
-                            </div>
-                          </div>
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="vscode-icons:file-type-css"
-                                height="40"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                CSS<br />
-                              </h3>
-                            </div>
-                          </div>
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="logos:javascript"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                JavaScript<br />
-                              </h3>
-                            </div>
-                          </div>
-                          <!-- tools -->
-                        </div>
+    <!--====================== Skills section =======================-->
+    <section class="skills section" id="skills">
+      <div class="skill_grid">
+        <div>
+          <h2 class="section_title">Technical Skills</h2>
+          <span class="section_subtitle">My technical skills</span>
+
+          <div class="skills__container container grid">
+            <div>
+              <div class="skills__content skills__open">
+                <div class="skills__list grid">
+                  <div class="tech__row">
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="logos:java" height="40"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          Java<br />
+                        </h3>
                       </div>
                     </div>
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="logos:spring-icon" height="40" width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          Spring<br />
+                        </h3>
+                      </div>
+                    </div>
+
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon style="color: #65b743" icon="simple-icons:springboot" height="40"
+                          width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          Spring Boot<br />
+                        </h3>
+                      </div>
+                    </div>
+
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="vscode-icons:file-type-html" height="40"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          HTML<br />
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="vscode-icons:file-type-css" height="40"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          CSS<br />
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="logos:javascript" height="40" width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          JavaScript<br />
+                        </h3>
+                      </div>
+                    </div>
+                    <!-- tools -->
                   </div>
                 </div>
               </div>
-    
-              <div>
-                <h2 class="section_title">Tools</h2>
-                <span class="section_subtitle">My technologies</span>
-    
-                <div class="skills__container container grid">
-                  <div>
-                    <div class="skills__content skills__open">
-                      <div class="skills__list grid">
-                        <div class="tech__row">
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="logos:hibernate"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Hibernate<br />
-                              </h3>
-                            </div>
-                          </div>
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="logos:mysql-icon"
-                                height="40"
-                                width="40"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                MySQL<br />
-                              </h3>
-                            </div>
-                          </div>
-    
-                          <!-- tools -->
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                style="color: #e84d31"
-                                icon="fa6-brands:git-alt"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Git<br />
-                              </h3>
-                            </div>
-                          </div>
-    
-                          <!-- <div class="skill__box skills-card">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="section_title">Tools</h2>
+          <span class="section_subtitle">My technologies</span>
+
+          <div class="skills__container container grid">
+            <div>
+              <div class="skills__content skills__open">
+                <div class="skills__list grid">
+                  <div class="tech__row">
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="logos:hibernate" height="40" width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          Hibernate<br />
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="logos:mysql-icon" height="40" width="40"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          MySQL<br />
+                        </h3>
+                      </div>
+                    </div>
+
+                    <!-- tools -->
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon style="color: #e84d31" icon="fa6-brands:git-alt" height="40"
+                          width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          Git<br />
+                        </h3>
+                      </div>
+                    </div>
+
+                    <!-- <div class="skill__box skills-card">
                             <div class="skills-card-img">
                               <iconify-icon
                                 icon="logos:swagger"
@@ -438,21 +406,17 @@
                               </h3>
                             </div>
                           </div> -->
-    
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="vscode-icons:file-type-maven"
-                                height="45"
-                                width="45"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Maven<br />
-                              </h3>
-                            </div>
-                          </div>
-    
-                          <!-- <div class="skill__box skills-card">
+
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="vscode-icons:file-type-maven" height="45" width="45"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          Maven<br />
+                        </h3>
+                      </div>
+                    </div>
+
+                    <!-- <div class="skill__box skills-card">
                             <div class="skills-card-img">
                               <iconify-icon
                                 style="color: #e84d31"
@@ -465,51 +429,43 @@
                               </h3>
                             </div>
                           </div> -->
-    
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                style="color: #1f1e1e"
-                                icon="ant-design:github-filled"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                GitHub<br />
-                              </h3>
-                            </div>
-                          </div>
-                          <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="vscode-icons:file-type-vscode"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                VsCode<br />
-                              </h3>
-                            </div>
-                          </div>
-                        </div>
+
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon style="color: #1f1e1e" icon="ant-design:github-filled" height="40"
+                          width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          GitHub<br />
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="skill__box skills-card">
+                      <div class="skills-card-img">
+                        <iconify-icon icon="vscode-icons:file-type-vscode" height="40" width="35"></iconify-icon>
+                        <h3 class="services__title skills-card-name">
+                          VsCode<br />
+                        </h3>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>  
-    
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Projects section : id="projects" --> <!--( work) -->
-        <!-- <div id="projects"></div> -->
-        <!-- <section class="work section" id="work">
+
+    <!-- Projects section : id="projects" --> <!--( work) -->
+    <!-- <div id="projects"></div> -->
+    <!-- <section class="work section" id="work">
             <h2 class="section-title">Work</h2>
 
             <div class="work__container bd-grid"> -->
-               <!--Earlier images work_10.webp, work_3.webp, work_9.webp, work_1.jpg, work_8.jpg, work_11.jpg -->
-               
-                <!-- <div class="work__img">
+    <!--Earlier images work_10.webp, work_3.webp, work_9.webp, work_1.jpg, work_8.jpg, work_11.jpg -->
+
+    <!-- <div class="work__img">
                     <img src="assets/project_1.png" alt="">
                     
                 </div>
@@ -531,311 +487,194 @@
                 </div>
             </div>
         </section> -->
-        <section class="portfolio section" id="projects">
-          <h2 class="section_title">Projects</h2>
-          <!-- <span class="section_subtitle"> Most recent Projects </span> -->
-          <div class="work__container grid">
-            <!-- <div> -->
-            <div class="work__box project-card">
-              <div class="right_box_work">
-                <img class="work__img" src="./assets/project_1.png" alt="" />
-              </div>
-              <div class="left_box_work">
-                <div class="work_project_name">
-                  <h2 class="project-heading project-title">DeskTime - Clone</h2>
-                </div>
-                <p class="project-para project-description">
-                  This is a clone of Desktime.com. It was our collaborative construct week project and
-                   we completed this in the span of 5 days in Masai. Time Always helps you to track your
-                    productive and unproductive time and calculate your productivity and effectiveness
-                     in your work.
-                </p>
-                <a
-                  href="https://github.com/palabhi017/DeskTime-Clome"
-                  style="display: inline-block; margin-right: 20px"
-                  target="_blank"
-                  class="project-github-link"
-                  >Code<i
-                    class="fa-brands fa-github"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <a
-                href="https://time-always.netlify.app/"
-                  class="project-deployed-link"
-                  style="display: inline-block; margin-right: 20px"
-                  href=""
-                  target="_blank"
-                  >Live<i
-                    class="fa-solid fa-square-arrow-up-right"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <div class="project-tech-stack">
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Java-Script
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    HTML
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    CSS
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
-  
-            <div class="work__box project-card">
-              <div class="right_box_work">
-                <img class="work__img" src="./assets/project_1.png" alt="" />
-              </div>
-              <div class="left_box_work">
-                <div class="work_project_name">
-                  <h2 class="project-heading project-title">DeskTime - Clone</h2>
-                </div>
-                <p class="project-para project-description">
-                  This is a clone of Desktime.com. It was our collaborative construct week project and
-                   we completed this in the span of 5 days in Masai. Time Always helps you to track your
-                    productive and unproductive time and calculate your productivity and effectiveness
-                     in your work.
-                </p>
-                <a
-                  href="https://github.com/palabhi017/DeskTime-Clome"
-                  style="display: inline-block; margin-right: 20px"
-                  target="_blank"
-                  class="project-github-link"
-                  >Code<i
-                    class="fa-brands fa-github"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <a
-                href="https://time-always.netlify.app/"
-                  class="project-deployed-link"
-                  style="display: inline-block; margin-right: 20px"
-                  href=""
-                  target="_blank"
-                  >Live<i
-                    class="fa-solid fa-square-arrow-up-right"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <div class="project-tech-stack">
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Java-Script
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    HTML
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    CSS
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
-  
-            <!-- <div > -->
-            <div class="work__box project-card">
-              <div class="right_box_work">
-                <img class="work__img" src="./assets/Atlantic express.png" alt=" " />
-              </div>
-              <div class="left_box_work">
-                <div class="work_project_name">
-                  <h2 class="project-heading project-title">
-                    Tales of time travel
-                  </h2>
-                </div>
-                <p class="project-para project-description">
-                  This is a REST API for a Bus reservation system portal. This API
-                  performs all the fundamental CRUD operations of any Bus
-                  reservation platform with user and admin validation at every
-                  step. This is a collaborative project built by a team of 5
-                  members executed in 5 days.
-                </p>
-                <a
-                href="https://github.com/Harit2002/Tales-of-time-travel"
-                  style="display: inline-block; margin-right: 20px"
-                  target="_blank"
-                  class="project-github-link"
-                  >Code<i
-                    class="fa-brands fa-github"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <a
-                href="https://drive.google.com/file/d/1FN0k73_DNbdg8fKqmcbxee5j7XBgicvt/view"
-                class="project-deployed-link"
-                style="display: inline-block; margin-right: 20px"
-                target="_blank"
-                >Video Explanation<i
-                  class="fa-solid fa-square-arrow-up-right"
-                  style="display: block-inline; margin-left: 5px"
-                ></i
-              ></a>
-                <div class="project-tech-stack">
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Java
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Spring Boot
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    MySql
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Maven
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Open api swagger
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Maven
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- div -->
-            <!-- <div > -->
-            <div class="work__box project-card">
-              <div class="right_box_work">
-                <img
-                  class="work__img"
-                  src="./assets/project_1.png"
-                  alt=""
-                />
-              </div>
-              <div class="left_box_work">
-                <div class="work_project_name">
-                  <h2 class="project-heading project-title">Hunger Hub</h2>
-                </div>
-                <p class="project-para project-description">
-                  This project is about food delivery app backend using java and
-                  spring-framework. In this project we have used spring-security
-                  with JWT for user authentication and authorization. In this app
-                  user can search food in according to category, restaurant,
-                  location and order accordingly. For now there are two main users
-                  of this application i.e user and and admin. Admin can access all
-                  the methods and user will be allowed to perform limited
-                  operations. Only an admin can add other admin but any user can
-                  register. This was a collabrative project made in 5 days.
-                </p>
-                <a
-                href="https://github.com/Harit2002/Hunger-Hub"
-                  style="display: inline-block; margin-right: 20px"
-                  target="_blank"
-                  class="project-github-link"
-                  >Code<i
-                    class="fa-brands fa-github"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <a
-                href="https://drive.google.com/file/d/15ROldD5uKBkwfx544YVfsA8AvCtSiRm4/view"
-                  class="project-deployed-link"
-                  style="display: inline-block; margin-right: 20px"
-                  target="_blank"
-                  >Video Explanation<i
-                    class="fa-solid fa-square-arrow-up-right"
-                    style="display: block-inline; margin-left: 5px"
-                  ></i
-                ></a>
-                <div class="project-tech-stack">
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Java
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Spring Boot
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    MySql
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Maven
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Security using JWT
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Open api swagger
-                  </p>
-                  <p
-                    class="button_tool project-para"
-                    style="font-size: 12px; margin-top: 10px"
-                  >
-                    Maven
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- div -->
+    <section class="portfolio section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <!-- <span class="section_subtitle"> Most recent Projects </span> -->
+      <div class="work__container grid">
+        <!-- <div> -->
+        <div class="work__box project-card">
+          <div class="right_box_work">
+            <img class="work__img" src="./assets/project_1.png" alt="" />
           </div>
-        </section>
+          <div class="left_box_work">
+            <div class="work_project_name">
+              <h2 class="project-heading project-title">DeskTime - Clone</h2>
+            </div>
+            <p class="project-para project-description">
+              This is a clone of Desktime.com. It was our collaborative construct week project and
+              we completed this in the span of 5 days in Masai. Time Always helps you to track your
+              productive and unproductive time and calculate your productivity and effectiveness
+              in your work.
+            </p>
+            <a href="https://github.com/palabhi017/DeskTime-Clome" style="display: inline-block; margin-right: 20px"
+              target="_blank" class="project-github-link">Code<i class="fa-brands fa-github"
+                style="display: block-inline; margin-left: 5px"></i></a>
+            <a href="https://time-always.netlify.app/" class="project-deployed-link"
+              style="display: inline-block; margin-right: 20px" href="" target="_blank">Live<i
+                class="fa-solid fa-square-arrow-up-right" style="display: block-inline; margin-left: 5px"></i></a>
+            <div class="project-tech-stack">
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Java-Script
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                HTML
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                CSS
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
 
-        <!-- Contact section : id="contact" -->
-        <!-- <div id="contact"></div> -->
-            <!-- Contact elements must have the following IDs:
+        <div class="work__box project-card">
+          <div class="right_box_work">
+            <img class="work__img" src="./assets/project_1.png" alt="" />
+          </div>
+          <div class="left_box_work">
+            <div class="work_project_name">
+              <h2 class="project-heading project-title">DeskTime - Clone</h2>
+            </div>
+            <p class="project-para project-description">
+              This is a clone of Desktime.com. It was our collaborative construct week project and
+              we completed this in the span of 5 days in Masai. Time Always helps you to track your
+              productive and unproductive time and calculate your productivity and effectiveness
+              in your work.
+            </p>
+            <a href="https://github.com/palabhi017/DeskTime-Clome" style="display: inline-block; margin-right: 20px"
+              target="_blank" class="project-github-link">Code<i class="fa-brands fa-github"
+                style="display: block-inline; margin-left: 5px"></i></a>
+            <a href="https://time-always.netlify.app/" class="project-deployed-link"
+              style="display: inline-block; margin-right: 20px" href="" target="_blank">Live<i
+                class="fa-solid fa-square-arrow-up-right" style="display: block-inline; margin-left: 5px"></i></a>
+            <div class="project-tech-stack">
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Java-Script
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                HTML
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                CSS
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- <div > -->
+        <div class="work__box project-card">
+          <div class="right_box_work">
+            <img class="work__img" src="./assets/Atlantic express.png" alt=" " />
+          </div>
+          <div class="left_box_work">
+            <div class="work_project_name">
+              <h2 class="project-heading project-title">
+                Tales of time travel
+              </h2>
+            </div>
+            <p class="project-para project-description">
+              This is a REST API for a Bus reservation system portal. This API
+              performs all the fundamental CRUD operations of any Bus
+              reservation platform with user and admin validation at every
+              step. This is a collaborative project built by a team of 5
+              members executed in 5 days.
+            </p>
+            <a href="https://github.com/Harit2002/Tales-of-time-travel"
+              style="display: inline-block; margin-right: 20px" target="_blank" class="project-github-link">Code<i
+                class="fa-brands fa-github" style="display: block-inline; margin-left: 5px"></i></a>
+            <a href="https://drive.google.com/file/d/1FN0k73_DNbdg8fKqmcbxee5j7XBgicvt/view"
+              class="project-deployed-link" style="display: inline-block; margin-right: 20px" target="_blank">Video
+              Explanation<i class="fa-solid fa-square-arrow-up-right"
+                style="display: block-inline; margin-left: 5px"></i></a>
+            <div class="project-tech-stack">
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Java
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Spring Boot
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                MySql
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Maven
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Open api swagger
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Maven
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- div -->
+        <!-- <div > -->
+        <div class="work__box project-card">
+          <div class="right_box_work">
+            <img class="work__img" src="./assets/project_1.png" alt="" />
+          </div>
+          <div class="left_box_work">
+            <div class="work_project_name">
+              <h2 class="project-heading project-title">Hunger Hub</h2>
+            </div>
+            <p class="project-para project-description">
+              This project is about food delivery app backend using java and
+              spring-framework. In this project we have used spring-security
+              with JWT for user authentication and authorization. In this app
+              user can search food in according to category, restaurant,
+              location and order accordingly. For now there are two main users
+              of this application i.e user and and admin. Admin can access all
+              the methods and user will be allowed to perform limited
+              operations. Only an admin can add other admin but any user can
+              register. This was a collabrative project made in 5 days.
+            </p>
+            <a href="https://github.com/Harit2002/Hunger-Hub" style="display: inline-block; margin-right: 20px"
+              target="_blank" class="project-github-link">Code<i class="fa-brands fa-github"
+                style="display: block-inline; margin-left: 5px"></i></a>
+            <a href="https://drive.google.com/file/d/15ROldD5uKBkwfx544YVfsA8AvCtSiRm4/view"
+              class="project-deployed-link" style="display: inline-block; margin-right: 20px" target="_blank">Video
+              Explanation<i class="fa-solid fa-square-arrow-up-right"
+                style="display: block-inline; margin-left: 5px"></i></a>
+            <div class="project-tech-stack">
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Java
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Spring Boot
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                MySql
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Maven
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Security using JWT
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Open api swagger
+              </p>
+              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                Maven
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- div -->
+      </div>
+    </section>
+
+    <!-- Contact section : id="contact" -->
+    <!-- <div id="contact"></div> -->
+    <!-- Contact elements must have the following IDs:
                 GitHub profile link : id="contact-github"
                 LinkedIn profile link : id="contact-linkedin"
                 Phone number : id="contact-phone"
                 Email address : id="contact-email" -->
 
-        <!-- <section class="contact section" id="contact">
+    <!-- <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
             
             <div class="contact__container bd-grid">
@@ -855,37 +694,45 @@
     <!-- ================= Github Stats =============== -->
 
     <section>
-        <div class="stats" id="stats">
-            <h2 class="title">Github Stats</h2>
-            <div class="github_stats" id="githubstatsflex">
-                <div id="statsimg">
-                    <img class="stats_img"  id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LokeshGola&lans-count=4&show_icons=true&theme=gruvbox " alt=" ">
-                </div>
+      <div class="stats" id="stats">
+        <h2 class="title">Github Stats</h2>
+        <div class="github_stats" id="githubstatsflex">
 
-                <div id="statsimg1">
-                    <div id="statssecondcolumn">
-                        <img class="stats_img" id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=LokeshGola&show_icons=true&theme=gruvbox " alt=" ">
-                        
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img class="stats_img" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=LokeshGola&show_icons=true&theme=gruvbox " alt=" ">
-                    </div>
-                </div>
+          <div id="statsimg1">
+            <div id="statssecondcolumn">
+              <img class="stats_img" id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=LokeshGola&show_icons=true&theme=city_light "
+                alt=" ">
+
             </div>
+          </div>
+          <div id="statsimg">
+            <img class="stats_img" id="github-top-langs"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=LokeshGola&lans-count=4&show_icons=true&theme=city_light "
+              alt=" ">
+          </div>
 
+
+          <div>
+            <div>
+              <img class="stats_img" id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com?user=LokeshGola&show_icons=true&theme=city_light "
+                alt=" ">
+            </div>
+          </div>
         </div>
-        <!-- <div id="calendar">
+
+      </div>
+      <!-- <div id="calendar">
             <h2 style="color: black; font-family: Poppins, sans-serif; text-align: center; " ; class="calci ">Github Calendar</h2>
             <div class="react-activity-calendar calendar "> -->
-                <!-- Loading stuff -->
-                <!-- Loading the data just for you.
+      <!-- Loading stuff -->
+      <!-- Loading the data just for you.
             </div>
         </div> -->
-        <div id="calendar" class="calendar">
-            <!-- this is the div where your calander will apear -->
-          </div>
+      <div id="calendar" class="calendar">
+        <!-- this is the div where your calander will apear -->
+      </div>
 
     </section>
 
@@ -893,12 +740,12 @@
 
     <!-- contact section start -->
     <section class="contact section" id="contact">
-        <div class="max-width">
-            <h2 class="title section-title">Contact</h2>
-            <div class="contact-content">
+      <div class="max-width">
+        <h2 class="title section-title">Contact</h2>
+        <div class="contact-content">
 
 
-              <!-- <div class="column left">
+          <!-- <div class="column left">
                 <div class="text ">Get in Touch</div>
                 
                 <div class="icons ">
@@ -936,7 +783,7 @@
 
                   </div>
               </div> -->
-                <!-- <div class="column right">
+          <!-- <div class="column right">
                     <div class="text ">Message me</div>
                     <form action="# ">
                         <div class="fields ">
@@ -958,68 +805,73 @@
                         </div>
                     </form>
                 </div> -->
-                
-                <div class="contact__container bd-grid contact-container">
-                  <div class="column contact-container-left">
-                    <!-- <div class="text ">Get in Touch</div> -->
-                    <!-- <p>Got a project? Reach out and let's work together on something exciting. Big or small. web.</p> -->
-                    <div class="icons ">
-    
-                      <div class="row ">
-                        <a> <span class="material-symbols-outlined ">
-                          Mobile Number
-                            </span> </a>
-                        <div class="info ">
-                            <!-- <div class="head ">Email</div> -->
-                            <div class="sub-title "> +91 8368710939 </div>
-                        </div>
-                    </div>
-                        <div class="row ">
-                            <a href="# "> <i class="fas fa-envelope "></i> </a>
-                            <div class="info ">
-                                <div class="head "></div>
-                                <div class="sub-title "> <a id="contact-email" href="#"> lokeshgola121@gmail.com</a> </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank "> <i class="fab fa-linkedin "></i> </a>
-                            <div class="info ">
-                                <!-- <div class="head ">Address</div> -->
-                                <div class="sub-titles "> <a id="contact-linkedin" href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank">Linkedin - Lokesh Gola</a> </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <a id="contact-github" href="https://github.com/LokeshGola" target="_blank "> <i class="fab fa-github "></i> </a>
-                            <div class="info ">
-                                <!-- <div class="head ">Email</div> -->
-                                <div id="contact-phone" class="sub-title "> <a href="https://github.com/LokeshGola" target="_blank ">GitHub - LokeshGola</a> </div>
-                            </div>
-                        </div>
-    
-                        
-    
-    
-                      </div>
-                  </div>
-                  <div class="contact-container-right">
-                    <form action="" class="contact__form">
-                      <input type="text" placeholder="Name" class="contact__input">
-                      <input type="email" placeholder="Email" class="contact__input">
-                      <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-  
-                      <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                  </div>
-              </div>
 
-                
+          <div class="contact__container bd-grid contact-container">
+            <div class="column contact-container-left">
+              <!-- <div class="text ">Get in Touch</div> -->
+              <!-- <p>Got a project? Reach out and let's work together on something exciting. Big or small. web.</p> -->
+              <div class="icons ">
+
+                <div class="row ">
+                  <a> <span class="material-symbols-outlined ">
+                      Mobile Number
+                    </span> </a>
+                  <div class="info ">
+                    <!-- <div class="head ">Email</div> -->
+                    <div class="sub-title "> +91 8368710939 </div>
+                  </div>
+                </div>
+                <div class="row ">
+                  <a href="# "> <i class="fas fa-envelope "></i> </a>
+                  <div class="info ">
+                    <div class="head "></div>
+                    <div class="sub-title "> <a id="contact-email" href="#"> lokeshgola121@gmail.com</a> </div>
+                  </div>
+                </div>
+                <div class="row ">
+                  <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank "> <i
+                      class="fab fa-linkedin "></i> </a>
+                  <div class="info ">
+                    <!-- <div class="head ">Address</div> -->
+                    <div class="sub-titles "> <a id="contact-linkedin"
+                        href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank">Linkedin - Lokesh
+                        Gola</a> </div>
+                  </div>
+                </div>
+                <div class="row ">
+                  <a id="contact-github" href="https://github.com/LokeshGola" target="_blank "> <i
+                      class="fab fa-github "></i> </a>
+                  <div class="info ">
+                    <!-- <div class="head ">Email</div> -->
+                    <div id="contact-phone" class="sub-title "> <a href="https://github.com/LokeshGola"
+                        target="_blank ">GitHub - LokeshGola</a> </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
             </div>
+            <div class="contact-container-right">
+              <form action="" class="contact__form">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                <input type="button" value="Enviar" class="contact__button button">
+              </form>
+            </div>
+          </div>
+
+
         </div>
+      </div>
     </section>
 
-    </main>
-    
-    <!-- <Footer class="footer">
+  </main>
+
+  <!-- <Footer class="footer">
         <p class="footer__title">Lokesh</p>
 
         <div class="footer__social">
@@ -1029,40 +881,52 @@
         </div>
     </Footer> -->
 
-    <footer class="footer">
-      <div class="footer_bg">
-          <div class="footer_container container grid">
-              <div>
-                  <h1 class="footer_title">Lokesh Gola</h1>
-                  <span class="footer_subtitle">Back-end Developer</span>
-              </div>
-              <div class="footer_socials">
-                  <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank" class="footer_social">
-                      <i class="uil uil-linkedin-alt"></i>
-                  </a>
-                  <a href="https://github.com/LokeshGola" target="_blank" class="footer_social">
-                      <i class="uil uil-github-alt"></i>
-                  </a>
-                  <!-- <a href="https://twitter.com/shubhangi_99" target="_blank" class="footer_social">
+  <footer class="footer">
+    <div class="footer_bg">
+      <div class="footer_container container grid">
+        <div>
+          <h1 class="footer_title">Lokesh Gola</h1>
+          <span class="footer_subtitle">Back-end Developer</span>
+        </div>
+        <div class="footer_socials">
+          <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank" class="footer_social">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+          <a href="https://github.com/LokeshGola" target="_blank" class="footer_social">
+            <i class="uil uil-github-alt"></i>
+          </a>
+          <!-- <a href="https://twitter.com/shubhangi_99" target="_blank" class="footer_social">
                       <i class="uil uil-twitter-alt"></i>
                   </a> -->
-              </div>
-          </div>
-          <p class="footer_copy">&#169; Lokesh Gola | All rights reserved | 2023</p>
+        </div>
       </div>
+      <p class="footer_copy">&#169; Lokesh Gola | All rights reserved | 2023</p>
+    </div>
   </footer>
 
-   <!-- ========== SCROLL TOP ========== -->
-   <a href="" class="scrollup" id="scroll-up">
+  <!-- ========== SCROLL TOP ========== -->
+  <a href="#home" class="scrollup" id="scroll-up">
     <i class="uil uil-arrow-up scrollup_icon"></i>
-</a>
+  </a>
+
+
+   <!-- ==================== AUTO-TYPE SCRIPT ==================== -->
+   <script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Java Backend Developer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+    });
+</script>
 
 </body>
 <script src="/scripts/index.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script>
-    GitHubCalendar(".calendar", "LokeshGola");
-    GitHubCalendar(".calendar", "LokeshGola", { responsive: true });
-  </script>
+  GitHubCalendar(".calendar", "LokeshGola");
+  GitHubCalendar(".calendar", "LokeshGola", { responsive: true });
+</script>
+
 
 </html>
