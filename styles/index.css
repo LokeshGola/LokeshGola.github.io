@@ -314,15 +314,14 @@ img {
 }
 
 .resume-button {
-    /* display: block; */
     margin: auto;
     background-color: var(--first-color);
     color: #fff;
-    padding: 0.75rem 2.5rem;
+    padding: 0.5rem 0.4rem;
     font-weight: var(--font-semi);
+    font-size: large;
     border-radius: 0.5rem;
     width: fit-content;
-    /* text-align: center; */
 }
 
 /*=== Skills === */
@@ -447,30 +446,6 @@ img {
 
 }
 
-/*=== Footer === */
-.footer {
-    background-color: var(--second-color);
-    color: #fff;
-    text-align: center;
-    font-weight: var(--font-semi);
-    padding: 2rem 0;
-}
-
-.footer__title {
-    font-size: 2rem;
-    margin-bottom: var(--mb-4);
-}
-
-.footer__social {
-    margin-bottom: var(--mb-4);
-}
-
-.footer__icon {
-    font-size: 1.5rem;
-    ;
-    color: #fff;
-    margin: 0 var(--mb-2);
-}
 
 /*=== Media Queries === */
 @media screen and (min-width:768px) {
@@ -800,9 +775,7 @@ img {
 }
 
 
-
-/* //////////////// */
-/* ====== FOOTER Modification ====== */
+/* ====== FOOTER ====== */
 .footer {
     padding-top: 0rem;
     text-align: center;
@@ -849,33 +822,6 @@ img {
     color: #fff;
 }
 
-/* ====== SCROLL UP ====== */
-/* .scrollup {
-    position: fixed;
-    right: 1rem;
-    bottom: -20%;
-    background-color: var(--first-color);
-    
-    opacity: 0.8;
-    padding: 0 .3rem;
-    border-radius: 0.4rem;
-    z-index: var(--z-tooltip);
-    transition: 0.5s;
-}
-
-.scrollup:hover {
-    background-color: var(--first-color);
-}
-
-.scrollup_icon {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.show-scroll {
-    bottom: 5rem;
-}  
-*/
 
 /* ====== SCROLL UP ====== */
 .scrollup {
