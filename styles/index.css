@@ -269,11 +269,11 @@ img {
     right: 0;
     bottom: 0;
     width: 300px;
-    
-}
-.home-img img{
     border-radius: 5%;
 }
+/* .home-img img{
+    border-radius: 5%;
+} */
 
 /*=== Buttons === */
 .button {
@@ -658,18 +658,6 @@ img {
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
   } */
-
-/* .work__container {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-   
-    align-items: start;
-    
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-} */
 
 .work__container {
     width: 100%;
