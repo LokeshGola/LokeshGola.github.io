@@ -283,6 +283,7 @@ img {
     padding: 0.75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: 0.5rem;
+    
 }
 
 .botton:hover {
@@ -400,7 +401,7 @@ img {
     text-align: center;
 } */
 
-.work__container {
+/* .work__container {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -421,7 +422,7 @@ img {
 .work__img img:hover {
     transform: scale(1.1);
 
-}
+} */
 
 
 /*=== Contact === */
@@ -658,10 +659,24 @@ img {
     margin-right: var(--mb-2);
   } */
 
+/* .work__container {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+   
+    align-items: start;
+    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+} */
+
 .work__container {
     width: 100%;
     margin: auto;
     display: grid;
+    align-items: start;
+    justify-items: center; 
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
@@ -746,11 +761,7 @@ img {
     transition: 0.3s;
 }
 
-.button:hover {
-    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
-}
-
-/* =======  Modification in Contact section ======*/
+/* ======= Contact Section ======*/
 
 .contact-container {
     display: flex;
