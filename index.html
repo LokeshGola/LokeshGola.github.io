@@ -1,374 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/index.css">
+    <!--=========== box-icons link ===========-->
 
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <!--=========== box-icons link ===========-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f612bd57e.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=========== links for github calander ===========-->
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <script src="https://kit.fontawesome.com/3f612bd57e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <!--=========== links for github calander ===========-->
 
+    <!--=========== links for technical skills and tools ===========-->
 
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <!--=========== links for technical skills and tools ===========-->
 
-  <!--=========== links for github calander ===========-->
+    <title>Lokesh Gola Portfolio</title>
+  </head>
 
-  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-  <!--=========== links for github calander ===========-->
-
-
-
-  <!--=========== links for technical skills and tools ===========-->
-
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-  <!--=========== links for technical skills and tools ===========-->
-
-  <title>Lokesh Gola Portfolio</title>
-  
-
-
-</head>
-
-<body>
-
+  <body>
     <!--=============== Navbar Section ==============-->
 
-  <header class="l-header">
-    <nav class="nav bd-grid">
-      <div>
-        <!-- double underscore in class  -->
-        <a href="#" class="nav__logo">Lokesh</a>
-      </div>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <!-- double underscore in class  -->
+          <a href="#" class="nav__logo">Lokesh</a>
+        </div>
 
-      <div id="nav-menu" class="nav__menu">
+        <div id="nav-menu" class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav-link home active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav-link about">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav-link skills">Skills</a>
+            </li>
 
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav-link home active">Home</a></li>
-          <li class="nav__item"><a href="#about" class="nav-link about">About</a></li>
-          <li class="nav__item"><a href="#skills" class="nav-link skills">Skills</a></li>
+            <li class="nav__item">
+              <a href="#projects" class="nav-link projects">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav-link contact">Contact</a>
+            </li>
 
-
-          <li class="nav__item"><a href="#projects" class="nav-link projects">Projects</a></li>
-          <li class="nav__item"><a href="#contact" class="nav-link contact">Contact</a></li>
-
-          <li class="nav__item">
-            <button id="resume-button-1" class="nav-link button resume resume-button">
-                <a href="Resume_folder/Lokesh_Gola_Resume.pdf" class="nav-link" id="resume-link-1"
-                    onClick="window.open('Resume_folder/Lokesh_Gola_Resume.pdf')" target="_blank" download>
-                    <i class="uil uil-download-alt nav_icon"></i> Resume
+            <li class="nav__item">
+              <button
+                id="resume-button-1"
+                class="nav-link button resume resume-button"
+              >
+                <a
+                  href="Resume_folder/Lokesh_Gola_Resume.pdf"
+                  class="nav-link"
+                  id="resume-link-1"
+                  onClick="window.open('Resume_folder/Lokesh_Gola_Resume.pdf')"
+                  target="_blank"
+                  download
+                >
+                  <i class="uil uil-download-alt nav_icon"></i> Resume
                 </a>
-            </button>
-          </li>
-        </ul>
-      </div>
-
-      <div id="nav-toggle" class="nav__toggle">
-        <i class='bx bx-menu'></i>
-      </div>
-    </nav>
-  </header>
-
-  <main class="l-main">
-
-
-
-    <!--=============== Home Section ==============-->
-
-    <section class="home bd-grid" id="home">
-      <div class="home__data">
-        <h1 class="home__title" id="user-detail-name">Hi, <br>I'm <span class="home__title-color">Lokesh Gola</span>
-        </h1>
-        <h2><span class="auto-type"></span></h2>
-
-        <a href="#contact" class="button">Contact</a>
-      </div>
-
-      <div class="home__social">
-        <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" class="home__social-icon"> <i
-            class='bx bxl-linkedin'></i></a>
-        <a href="https://github.com/LokeshGola" class="home__social-icon"> <i class='bx bxl-github'></i></a>
-      </div>
-
-      <div>
-        <img class="home-img" src="assets/IMG_20220731_145925_.jpg-min.png" alt="">
-      </div>
-    </section>
-
-
-
-    <!--=============== About Section ==============-->
-
-    <section class="about section" id="about">
-      <h2 class="section-title">About</h2>
-
-      <div class="about__container bd-grid">
-        <div class="about__img">
-          <img src="assets/IMG_20220731_145925.png" alt="">
+              </button>
+            </li>
+          </ul>
         </div>
 
-        <h2 class="about__subtitle">I am Lokesh</h2>
-        <p class="about__text" id="user-detail-intro">An enthusiastic Full-stack Developer, a lifelong learner, and have
-          a problem-solving
-          mindset. Know Javascript, HTML, CSS, Java, spring boot, Data Structure, and algorithm and have 1200+ hours of
-          hands-on experience working on projects. Looking forward to utilization current skillset and experience in the
-          optimized growth of organization will work for.
-        </p>
-        
-        <button class="button resume-button" id="resume-button-2">
-          <a href="Resume_folder/Lokesh_Gola_Resume.pdf" class="button" id="resume-link-2"
-              onClick="window.open('Resume_folder/Lokesh_Gola_Resume.pdf')" target="_blank" download>
+        <div id="nav-toggle" class="nav__toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--=============== Home Section ==============-->
+
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title" id="user-detail-name">
+            Hi, <br />I'm <span class="home__title-color">Lokesh Gola</span>
+          </h1>
+          <h2><span class="auto-type"></span></h2>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/lokesh-gola-712581240/"
+            class="home__social-icon"
+          >
+            <i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/LokeshGola" class="home__social-icon">
+            <i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div>
+          <img
+            class="home-img"
+            src="assets/IMG_20220731_145925_.jpg-min.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!--=============== About Section ==============-->
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/IMG_20220731_145925.png" alt="" />
+          </div>
+
+          <h2 class="about__subtitle">I am Lokesh</h2>
+          <p class="about__text" id="user-detail-intro">
+            An enthusiastic Full-stack Developer, a lifelong learner, and have a
+            problem-solving mindset. Know Javascript, HTML, CSS, Java, spring
+            boot, Data Structure, and algorithm and have 1200+ hours of hands-on
+            experience working on projects. Looking forward to utilization
+            current skillset and experience in the optimized growth of
+            organization will work for.
+          </p>
+
+          <button class="button resume-button" id="resume-button-2">
+            <a
+              href="Resume_folder/Lokesh_Gola_Resume.pdf"
+              class="button"
+              id="resume-link-2"
+              onClick="window.open('Resume_folder/Lokesh_Gola_Resume.pdf')"
+              target="_blank"
+              download
+            >
               Resume <i class="uil uil-download-alt button_icon"></i>
-          </a>
-      </button>
-           
-
-      </div>
-    </section>
-
-    <!--========= Skills section-2 ============-->
-
-    <section class="skills-2 section" id="skills">
-      <h2 class="section-title">Skills</h2>
-
-      <div class="skills__container bd-grid">
-        <div>
-          <h2 class="skills__subtitle">Professional Skills</h2>
-          <p class="skills__text"></p>
-
-          <!-- skill-1 -->
-          <div class="skills__data skills-card">
-            <div class="skills__names skills-card-name">
-              <i class='bx bxl-java skills__icon skills-card-img'></i>
-              <span class="skills__name">JAVA</span>
-            </div>
-            <div>
-              <span class="skills__percentage">90%</span>
-            </div>
-
-            <div class="skills__bar skills__java"></div>
-          </div>
-          <!-- skill-2 -->
-          <div class="skills__data skills-card">
-            <div class="skills__names skills-card-name">
-              <i class='bx bxl-html5 skills__icon skills-card-img'></i>
-              <span class="skills__name">HTML</span>
-            </div>
-            <div>
-              <span class="skills__percentage">80%</span>
-            </div>
-
-            <div class="skills__bar skills__html"></div>
-          </div>
-          <!-- skill-3 -->
-          <div class="skills__data skills-card">
-            <div class="skills__names skills-card-name">
-              <i class='bx bxl-css3 skills__icon skills-card-img'></i>
-              <span class="skills__name">CSS</span>
-            </div>
-            <div>
-              <span class="skills__percentage">75%</span>
-            </div>
-
-            <div class="skills__bar skills__css"></div>
-          </div>
-          <!-- skill-4 -->
-          <div class="skills__data skills-card">
-            <div class="skills__names skills-card-name">
-              <i class='bx bxl-javascript skills__icon skills-card-img'></i>
-              <span class="skills__name">JAVASCRIPT</span>
-            </div>
-            <div>
-              <span class="skills__percentage">90%</span>
-            </div>
-
-            <div class="skills__bar skills__js"></div>
-          </div>
-          
+            </a>
+          </button>
         </div>
+      </section>
 
-        <div>
-          <img class="skills__img skills-card-img" src="/assets/macbook-air-on-desk.jpg" alt="">
+      <!--========= Skills section-2 ============-->
+
+      <section class="skills-2 section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text"></p>
+
+            <!-- skill-1 -->
+            <div class="skills__data skills-card">
+              <div class="skills__names skills-card-name">
+                <i class="bx bxl-java skills__icon skills-card-img"></i>
+                <span class="skills__name">JAVA</span>
+              </div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+
+              <div class="skills__bar skills__java"></div>
+            </div>
+            <!-- skill-2 -->
+            <div class="skills__data skills-card">
+              <div class="skills__names skills-card-name">
+                <i class="bx bxl-html5 skills__icon skills-card-img"></i>
+                <span class="skills__name">HTML</span>
+              </div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+
+              <div class="skills__bar skills__html"></div>
+            </div>
+            <!-- skill-3 -->
+            <div class="skills__data skills-card">
+              <div class="skills__names skills-card-name">
+                <i class="bx bxl-css3 skills__icon skills-card-img"></i>
+                <span class="skills__name">CSS</span>
+              </div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+
+              <div class="skills__bar skills__css"></div>
+            </div>
+            <!-- skill-4 -->
+            <div class="skills__data skills-card">
+              <div class="skills__names skills-card-name">
+                <i class="bx bxl-javascript skills__icon skills-card-img"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+
+              <div class="skills__bar skills__js"></div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="skills__img skills-card-img"
+              src="/assets/macbook-air-on-desk.jpg"
+              alt=""
+            />
+          </div>
         </div>
-      </div>
+      </section>
 
-    </section>
-    
+      <!--====================== Skills section-1 =======================-->
 
-    <!--====================== Skills section-1 =======================-->
+      <section class="skills section" id="skills">
+        <div class="skill_grid">
+          <div>
+            <h2 class="section_title">Technical Skills</h2>
+            <span class="section_subtitle">My technical skills</span>
 
-    <section class="skills section" id="skills">
-      <div class="skill_grid">
-        <div>
-          <h2 class="section_title">Technical Skills</h2>
-          <span class="section_subtitle">My technical skills</span>
+            <div class="skills__container container grid">
+              <div>
+                <div class="skills__content skills__open">
+                  <div class="skills__list grid">
+                    <div class="tech__row">
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="logos:java"
+                            height="40"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Java<br />
+                          </h3>
+                        </div>
+                      </div>
 
-          <div class="skills__container container grid">
-            <div>
-              <div class="skills__content skills__open">
-                <div class="skills__list grid">
-                  <div class="tech__row">
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="logos:java" height="40"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          Java<br />
-                        </h3>
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="logos:spring-icon"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Spring<br />
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            style="color: #65b743"
+                            icon="simple-icons:springboot"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Spring Boot<br />
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="logos:mysql-icon"
+                            height="40"
+                            width="40"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            MySQL<br />
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="vscode-icons:file-type-html"
+                            height="40"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            HTML<br />
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="vscode-icons:file-type-css"
+                            height="40"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            CSS<br />
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="logos:javascript"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            JavaScript<br />
+                          </h3>
+                        </div>
                       </div>
                     </div>
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="logos:spring-icon" height="40" width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          Spring<br />
-                        </h3>
-                      </div>
-                    </div>
-
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon style="color: #65b743" icon="simple-icons:springboot" height="40"
-                          width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          Spring Boot<br />
-                        </h3>
-                      </div>
-                    </div>
-
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="vscode-icons:file-type-html" height="40"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          HTML<br />
-                        </h3>
-                      </div>
-                    </div>
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="vscode-icons:file-type-css" height="40"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          CSS<br />
-                        </h3>
-                      </div>
-                    </div>
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="logos:javascript" height="40" width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          JavaScript<br />
-                        </h3>
-                      </div>
-                    </div>
-                    
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- tools -->
-        <div>
-          <h2 class="section_title">Tools</h2>
-          <span class="section_subtitle">My technologies</span>
+          <!-- tools -->
+          <div>
+            <h2 class="section_title">Tools</h2>
+            <span class="section_subtitle">My technologies</span>
 
-          <div class="skills__container container grid">
-            <div>
-              <div class="skills__content skills__open">
-                <div class="skills__list grid">
-                  <div class="tech__row">
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="logos:hibernate" height="40" width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          Hibernate<br />
-                        </h3>
+            <div class="skills__container container grid">
+              <div>
+                <div class="skills__content skills__open">
+                  <div class="skills__list grid">
+                    <div class="tech__row">
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="logos:hibernate"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Hibernate<br />
+                          </h3>
+                        </div>
                       </div>
-                    </div>
-                    <div class="skill__box skills-card">
+                      <!-- <div class="skill__box skills-card">
                       <div class="skills-card-img">
                         <iconify-icon icon="logos:mysql-icon" height="40" width="40"></iconify-icon>
                         <h3 class="services__title skills-card-name">
                           MySQL<br />
                         </h3>
                       </div>
-                    </div>
+                    </div> -->
 
-                    <!-- tools -->
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon style="color: #e84d31" icon="fa6-brands:git-alt" height="40"
-                          width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          Git<br />
-                        </h3>
+                      <!-- tools -->
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            style="color: #e84d31"
+                            icon="fa6-brands:git-alt"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Git<br />
+                          </h3>
+                        </div>
                       </div>
-                    </div>
 
-                    <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                icon="logos:swagger"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Swagger<br />
-                              </h3>
-                            </div>
-                          </div>
-
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="vscode-icons:file-type-maven" height="45" width="45"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          Maven<br />
-                        </h3>
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="logos:swagger"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Swagger<br />
+                          </h3>
+                        </div>
                       </div>
-                    </div>
 
-                    <div class="skill__box skills-card">
-                            <div class="skills-card-img">
-                              <iconify-icon
-                                style="color: #e84d31"
-                                icon="skill-icons:postman"
-                                height="40"
-                                width="35"
-                              ></iconify-icon>
-                              <h3 class="services__title skills-card-name">
-                                Postman<br />
-                              </h3>
-                            </div>
-                          </div>
-
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon style="color: #1f1e1e" icon="ant-design:github-filled" height="40"
-                          width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          GitHub<br />
-                        </h3>
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="vscode-icons:file-type-maven"
+                            height="45"
+                            width="45"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Maven<br />
+                          </h3>
+                        </div>
                       </div>
-                    </div>
-                    <div class="skill__box skills-card">
-                      <div class="skills-card-img">
-                        <iconify-icon icon="vscode-icons:file-type-vscode" height="40" width="35"></iconify-icon>
-                        <h3 class="services__title skills-card-name">
-                          VsCode<br />
-                        </h3>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            style="color: #e84d31"
+                            icon="skill-icons:postman"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            Postman<br />
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            style="color: #1f1e1e"
+                            icon="ant-design:github-filled"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            GitHub<br />
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="skill__box skills-card">
+                        <div class="skills-card-img">
+                          <iconify-icon
+                            icon="vscode-icons:file-type-vscode"
+                            height="40"
+                            width="35"
+                          ></iconify-icon>
+                          <h3 class="services__title skills-card-name">
+                            VsCode<br />
+                          </h3>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -377,214 +475,348 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    
+      <!--========== Projects section  ============-->
+      <!--( work) -->
 
+      <section class="portfolio section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <!-- <span class="section_subtitle"> Most recent Projects </span> -->
+        <div class="work__container grid">
+          <!--=== Project-1 ===-->
 
-    <!--========== Projects section  ============--> <!--( work) -->
-
-    <section class="portfolio section" id="projects">
-      <h2 class="section-title">Projects</h2>
-      <!-- <span class="section_subtitle"> Most recent Projects </span> -->
-      <div class="work__container grid">
-
-        <!--=== Project-1 ===-->
-
-        <div class="work__box project-card">
-          <div class="right_box_work">
-            <img class="work__img" src="./assets/project_1.png" alt="" />
-          </div>
-          <div class="left_box_work">
-            <div class="work_project_name">
-              <h2 class="project-heading project-title">Time Always</h2>
+          <div class="work__box project-card">
+            <div class="right_box_work">
+              <img class="work__img" src="./assets/project_1.png" alt="" />
             </div>
-            <p class="project-para project-description">
-              Time Always helps you to track your
-              productive and unproductive time and calculate your productivity and effectiveness
-              in your work.
-              This is a clone of Desktime.com. It was our collaborative construct week project and
-              we completed this in the span of 5 days in Masai. 
-            </p>
-            <a href="https://github.com/LokeshGola/DeskTime-Clone" style="display: inline-block; margin-right: 20px"
-              target="_blank" class="project-github-link">Code<i class="fa-brands fa-github"
-                style="display: block-inline; margin-left: 5px"></i></a>
-            <a href="https://time-always.netlify.app/" class="project-deployed-link"
-              style="display: inline-block; margin-right: 20px" href="" target="_blank">Live<i
-                class="fa-solid fa-square-arrow-up-right" style="display: block-inline; margin-left: 5px"></i></a>
-            <div class="project-tech-stack">
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Java-Script
+            <div class="left_box_work">
+              <div class="work_project_name">
+                <h2 class="project-heading project-title">Time Always</h2>
+              </div>
+              <p class="project-para project-description">
+                Time Always helps you to track your productive and unproductive
+                time and calculate your productivity and effectiveness in your
+                work. This is a clone of Desktime.com. It was our collaborative
+                construct week project and we completed this in the span of 5
+                days in Masai.
               </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                HTML
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                CSS
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!--=== Project-2 ===-->
-
-        <div class="work__box project-card">
-          <div class="right_box_work">
-            <img class="work__img" src="./assets/RideEasyLogo2.jpeg" alt="" />
-          </div>
-          <div class="left_box_work">
-            <div class="work_project_name">
-              <h2 class="project-heading project-title">RideEasy</h2>
-            </div>
-            <p class="project-para project-description">
-              This is a backend project. The Online Cab Booking Service REST API provides essential CRUD operations for a cab 
-              booking platform. It includes modules for Login, Admin, Customer, Driver, Cab, and 
-              Booking Management. With JWT token authentication, it ensures secure access for Admin,
-               Customer, and Driver roles. It was our collaborative construct week project and
-              we completed this in the span of 5 days in Masai School. RideEasy helps user to book a cab online within no time.
-            </p>
-            <a href="https://github.com/LokeshGola/RideEasy__An_Onine_Cab_Booking_System" style="display: inline-block; margin-right: 20px"
-              target="_blank" class="project-github-link">Code<i class="fa-brands fa-github"
-                style="display: block-inline; margin-left: 5px"></i></a>
-            <a href="https://drive.google.com/file/d/1hjbqwKtdxoBTOyAnW0Xksd0QkQSPScv4/view" class="project-deployed-link"
-              style="display: inline-block; margin-right: 20px" href="" target="_blank">Live<i
-                class="fa-solid fa-square-arrow-up-right" style="display: block-inline; margin-left: 5px"></i></a>
-            <div class="project-tech-stack">
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                JAVA
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                SpringMVC
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Spring Boot
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                RDBMS
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                MySQL
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Maven
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Spring Security using JWT
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Swagger Open API
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Postman
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Java-Script
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                HTML
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                CSS
-              </p>
+              <a
+                href="https://github.com/LokeshGola/DeskTime-Clone"
+                style="display: inline-block; margin-right: 20px"
+                target="_blank"
+                class="project-github-link"
+                >Code<i
+                  class="fa-brands fa-github"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+              <a
+                href="https://time-always.netlify.app/"
+                class="project-deployed-link"
+                style="display: inline-block; margin-right: 20px"
+                href=""
+                target="_blank"
+                >Live<i
+                  class="fa-solid fa-square-arrow-up-right"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+              <div class="project-tech-stack">
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Java-Script
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  HTML
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  CSS
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        
-        <!--=== Project-3 ===-->
 
-        <div class="work__box project-card">
-          <div class="right_box_work">
-            <img class="work__img" src="assets/Atlantic expressimg-3.jpeg" alt=" " />
-          </div>
-          <div class="left_box_work">
-            <div class="work_project_name">
-              <h2 class="project-heading project-title">
-                Atlantic Express travel
-              </h2>
+          <!--=== Project-2 ===-->
+
+          <div class="work__box project-card">
+            <div class="right_box_work">
+              <img class="work__img" src="./assets/RideEasyLogo2.jpeg" alt="" />
             </div>
-            <p class="project-para project-description">
-              This is a backend project of Bus reservation system portal. This portal performs all the fundamental CRUD operations of a Bus
-              reservation platform with user and admin validation at every
-              step. This is an indidual project built in 5 days.
+            <div class="left_box_work">
+              <div class="work_project_name">
+                <h2 class="project-heading project-title">RideEasy</h2>
+              </div>
+              <p class="project-para project-description">
+                This is a backend project. The Online Cab Booking Service REST
+                API provides essential CRUD operations for a cab booking
+                platform. It includes modules for Login, Admin, Customer,
+                Driver, Cab, and Booking Management. With JWT token
+                authentication, it ensures secure access for Admin, Customer,
+                and Driver roles. It was our collaborative construct week
+                project and we completed this in the span of 5 days in Masai
+                School. RideEasy helps user to book a cab online within no time.
+              </p>
+              <a
+                href="https://github.com/LokeshGola/RideEasy__An_Onine_Cab_Booking_System"
+                style="display: inline-block; margin-right: 20px"
+                target="_blank"
+                class="project-github-link"
+                >Code<i
+                  class="fa-brands fa-github"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+              <a
+                href="https://drive.google.com/file/d/1hjbqwKtdxoBTOyAnW0Xksd0QkQSPScv4/view"
+                class="project-deployed-link"
+                style="display: inline-block; margin-right: 20px"
+                href=""
+                target="_blank"
+                >Live<i
+                  class="fa-solid fa-square-arrow-up-right"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+              <div class="project-tech-stack">
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  JAVA
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  SpringMVC
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Spring Boot
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  RDBMS
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  MySQL
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Maven
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Spring Security using JWT
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Swagger Open API
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Postman
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Java-Script
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  HTML
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  CSS
+                </p>
+              </div>
+            </div>
+          </div>
 
-              <!-- This is a REST API for a Bus reservation system portal. This API
+          <!--=== Project-3 ===-->
+
+          <div class="work__box project-card">
+            <div class="right_box_work">
+              <img
+                class="work__img"
+                src="assets/Atlantic expressimg-3.jpeg"
+                alt=" "
+              />
+            </div>
+            <div class="left_box_work">
+              <div class="work_project_name">
+                <h2 class="project-heading project-title">
+                  Atlantic Express travel
+                </h2>
+              </div>
+              <p class="project-para project-description">
+                This is a backend project of Bus reservation system portal. This
+                portal performs all the fundamental CRUD operations of a Bus
+                reservation platform with user and admin validation at every
+                step. This is an indidual project built in 5 days.
+
+                <!-- This is a REST API for a Bus reservation system portal. This API
               performs all the fundamental CRUD operations of any Bus
               reservation platform with user and admin validation at every
               step. This is a collaborative project built by a team of 5
               members executed in 5 days. -->
-            </p>
-            <a href="https://github.com/LokeshGola/bus-ticket-reservation-system"
-              style="display: inline-block; margin-right: 20px" target="_blank" class="project-github-link">Code<i
-                class="fa-brands fa-github" style="display: block-inline; margin-left: 5px"></i></a>
-            <a href=""
-              class="project-deployed-link" style="display: inline-block; margin-right: 20px" target="_blank">
-              Video Explanation
-              <i class="fa-solid fa-square-arrow-up-right"
-                style="display: block-inline; margin-left: 5px"></i></a>
-            <div class="project-tech-stack">
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Java
               </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                MySql
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                JDBC
-              </p>
-               <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                RDBMS
-              </p>
-              <!--<p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+              <a
+                href="https://github.com/LokeshGola/bus-ticket-reservation-system"
+                style="display: inline-block; margin-right: 20px"
+                target="_blank"
+                class="project-github-link"
+                >Code<i
+                  class="fa-brands fa-github"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+              <a
+                href=""
+                class="project-deployed-link"
+                style="display: inline-block; margin-right: 20px"
+                target="_blank"
+              >
+                Video Explanation
+                <i
+                  class="fa-solid fa-square-arrow-up-right"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+              <div class="project-tech-stack">
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Java
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  MySql
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  JDBC
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  RDBMS
+                </p>
+                <!--<p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
                 
               </p>
               <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
                
               </p> -->
+              </div>
             </div>
           </div>
-        </div>
-        
-        <!--=== Project-4 ===-->
 
-        <div class="work__box project-card">
-          <div class="right_box_work">
-            <img class="work__img" src="assets/dermstore-image-1.jpeg" alt="" />
-          </div>
-          <div class="left_box_work">
-            <div class="work_project_name">
-              <h2 class="project-heading project-title">DermStore</h2>
+          <!--=== Project-4 ===-->
+
+          <div class="work__box project-card">
+            <div class="right_box_work">
+              <img
+                class="work__img"
+                src="assets/dermstore-image-1.jpeg"
+                alt=""
+              />
             </div>
-            <p class="project-para project-description">
-              This project is about an E-Commerce website using HTML, CSS and Java-Script. In this project we have used. In this app,
-              user can login, Sign-up. User can look for the skin care related items in according to category and add it to the cart, and order accordingly. This was an individual project built in 5 days.
-            </p>
-            <a href="https://github.com/LokeshGola/DermStore-Clone" style="display: inline-block; margin-right: 20px"
-              target="_blank" class="project-github-link">Code<i class="fa-brands fa-github"
-                style="display: block-inline; margin-left: 5px"></i></a>
-                
-            <a href="https://sparkly-daffodil-05c6a4.netlify.app/"
-              class="project-deployed-link" style="display: inline-block; margin-right: 20px" target="_blank">Live<i class="fa-solid fa-square-arrow-up-right"
-                style="display: block-inline; margin-left: 5px"></i></a>
+            <div class="left_box_work">
+              <div class="work_project_name">
+                <h2 class="project-heading project-title">DermStore</h2>
+              </div>
+              <p class="project-para project-description">
+                This project is about an E-Commerce website using HTML, CSS and
+                Java-Script. In this project we have used. In this app, user can
+                login, Sign-up. User can look for the skin care related items in
+                according to category and add it to the cart, and order
+                accordingly. This was an individual project built in 5 days.
+              </p>
+              <a
+                href="https://github.com/LokeshGola/DermStore-Clone"
+                style="display: inline-block; margin-right: 20px"
+                target="_blank"
+                class="project-github-link"
+                >Code<i
+                  class="fa-brands fa-github"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
 
-            <!-- <a href="https://youtu.be/jxws6SDWyR8"
+              <a
+                href="https://sparkly-daffodil-05c6a4.netlify.app/"
+                class="project-deployed-link"
+                style="display: inline-block; margin-right: 20px"
+                target="_blank"
+                >Live<i
+                  class="fa-solid fa-square-arrow-up-right"
+                  style="display: block-inline; margin-left: 5px"
+                ></i
+              ></a>
+
+              <!-- <a href="https://youtu.be/jxws6SDWyR8"
               class="project-deployed-link" style="display: inline-block; margin-right: 20px" target="_blank">Video
               Explanation<i class="fa-solid fa-square-arrow-up-right"
                 style="display: block-inline; margin-left: 5px"></i></a> -->
 
-            <div class="project-tech-stack">
+              <div class="project-tech-stack">
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  HTML
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  CSS
+                </p>
+                <p
+                  class="button_tool project-para"
+                  style="font-size: 12px; margin-top: 10px"
+                >
+                  Java-Script
+                </p>
 
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                HTML
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                CSS
-              </p>
-              <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
-                Java-Script
-              </p>
-
-              <!-- <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
+                <!-- <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
                 Java
               </p>
               <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
@@ -605,175 +837,226 @@
               <p class="button_tool project-para" style="font-size: 12px; margin-top: 10px">
                 Maven
               </p> -->
+              </div>
             </div>
           </div>
+          <!-- div -->
         </div>
-        <!-- div -->
+      </section>
 
-        
-      </div>
-    </section>
+      <!-- ================= Github Stats =============== -->
 
-    <!-- ================= Github Stats =============== -->
-
-    <section>
-      <div class="stats" id="stats">
-        <h2 class="title">Github Stats</h2>
-        <div class="github_stats" id="githubstatsflex">
-
-          <div id="statsimg1">
-            <div id="statssecondcolumn">
-              <img class="stats_img" id="github-stats-card"
-                src="https://github-readme-stats.vercel.app/api?username=LokeshGola&show_icons=true&theme=city_light "
-                alt=" ">
-
+      <section>
+        <div class="stats" id="stats">
+          <h2 class="title">Github Stats</h2>
+          <div class="github_stats" id="githubstatsflex">
+            <div id="statsimg1">
+              <div id="statssecondcolumn">
+                <img
+                  class="stats_img"
+                  id="github-stats-card"
+                  src="https://github-readme-stats.vercel.app/api?username=LokeshGola&show_icons=true&theme=city_light "
+                  alt=" "
+                />
+              </div>
             </div>
-          </div>
-          <div id="statsimg">
-            <img class="stats_img" id="github-top-langs"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=LokeshGola&lans-count=4&show_icons=true&theme=city_light "
-              alt=" ">
-          </div>
+            <div id="statsimg">
+              <img
+                class="stats_img"
+                id="github-top-langs"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=LokeshGola&lans-count=4&show_icons=true&theme=city_light "
+                alt=" "
+              />
+            </div>
 
-
-          <div>
             <div>
-              <img class="stats_img" id="github-streak-stats"
-                src="https://github-readme-streak-stats.herokuapp.com?user=LokeshGola&show_icons=true&theme=city_light "
-                alt=" ">
+              <div>
+                <img
+                  class="stats_img"
+                  id="github-streak-stats"
+                  src="https://github-readme-streak-stats.herokuapp.com?user=LokeshGola&show_icons=true&theme=city_light "
+                  alt=" "
+                />
+              </div>
             </div>
           </div>
         </div>
 
-      </div>
+        <div id="calendar" class="calendar react-activity-calendar">
+          <!-- this is the div where your calander will apear -->
+        </div>
+      </section>
 
-      <div id="calendar" class="calendar react-activity-calendar">
-        <!-- this is the div where your calander will apear -->
-      </div>
+      <!--============ Contact Section ============== -->
 
-    </section>
-
-
-
-    <!--============ Contact Section ============== -->
-
-    <section class="contact section" id="contact">
-      <div class="max-width">
-        <h2 class="title section-title">Contact</h2>
-        <div class="contact-content">
-
-          <div class="contact__container bd-grid contact-container">
-            <div class="column contact-container-left">
-              <!-- <div class="text ">Get in Touch</div> -->
-              <!-- <p>Got a project? Reach out and let's work together on something exciting. Big or small. web.</p> -->
-              <div class="icons ">
-
-                <div class="row ">
-                  <a> <span class="material-symbols-outlined ">
-                      Mobile Number
-                    </span> </a>
-                  <div class="info ">
-                    <!-- <div class="head ">Email</div> -->
-                    <div class="sub-title " id="contact-phone"> +91 8368710939 </div>
+      <section class="contact section" id="contact">
+        <div class="max-width">
+          <h2 class="title section-title">Contact</h2>
+          <div class="contact-content">
+            <div class="contact__container bd-grid contact-container">
+              <div class="column contact-container-left">
+                <!-- <div class="text ">Get in Touch</div> -->
+                <!-- <p>Got a project? Reach out and let's work together on something exciting. Big or small. web.</p> -->
+                <div class="icons">
+                  <div class="row">
+                    <a>
+                      <span class="material-symbols-outlined">
+                        Mobile Number
+                      </span>
+                    </a>
+                    <div class="info">
+                      <!-- <div class="head ">Email</div> -->
+                      <div class="sub-title" id="contact-phone">
+                        +91 8368710939
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="row ">
-                  <a href="# "> <i class="fas fa-envelope "></i> </a>
-                  <div class="info ">
-                    <div class="head "></div>
-                    <div class="sub-title "> <a id="contact-email" href="#"> lokeshgola121@gmail.com</a> </div>
+                  <div class="row">
+                    <a href="# "> <i class="fas fa-envelope"></i> </a>
+                    <div class="info">
+                      <div class="head"></div>
+                      <div class="sub-title">
+                        <a id="contact-email" href="#">
+                          lokeshgola121@gmail.com</a
+                        >
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="row ">
-                  <a id="" href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank "> <i
-                      class="fab fa-linkedin "></i> </a>
-                  <div class="info ">
-                    <!-- <div class="head ">Address</div> -->
-                    <div class="sub-titles "> <a id="contact-linkedin"
-                        href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank">Linkedin - Lokesh
-                        Gola</a> </div>
+                  <div class="row">
+                    <a
+                      id=""
+                      href="https://www.linkedin.com/in/lokesh-gola-712581240/"
+                      target="_blank "
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <div class="info">
+                      <!-- <div class="head ">Address</div> -->
+                      <div class="sub-titles">
+                        <a
+                          id="contact-linkedin"
+                          href="https://www.linkedin.com/in/lokesh-gola-712581240/"
+                          target="_blank"
+                          >Linkedin - Lokesh Gola</a
+                        >
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="row ">
-                  <a id="contact-github" href="https://github.com/LokeshGola" target="_blank "> <i
-                      class="fab fa-github "></i> </a>
-                  <div class="info ">
-                    <!-- <div class="head ">Email</div> -->
-                    <div id="" class="sub-title "> <a href="https://github.com/LokeshGola" target="_blank ">GitHub -
-                        LokeshGola</a> </div>
+                  <div class="row">
+                    <a
+                      id="contact-github"
+                      href="https://github.com/LokeshGola"
+                      target="_blank "
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <div class="info">
+                      <!-- <div class="head ">Email</div> -->
+                      <div id="" class="sub-title">
+                        <a href="https://github.com/LokeshGola" target="_blank "
+                          >GitHub - LokeshGola</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!--============ Contact Form ============== -->
-            <div class="contact-container-right">             
-              <form action="https://formspree.io/f/mrgvwldj" method="post" class="contact__form">
-                <input name="name" type="text" placeholder="Name" class="contact__input">
-                <input name="email" type="email" placeholder="Email" class="contact__input">
-                <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
-                <input type="submit" value="SEND" class="contact__button button">
-              </form>
+              <!--============ Contact Form ============== -->
+              <div class="contact-container-right">
+                <form
+                  action="https://formspree.io/f/mrgvwldj"
+                  method="post"
+                  class="contact__form"
+                >
+                  <input
+                    name="name"
+                    type="text"
+                    placeholder="Name"
+                    class="contact__input"
+                  />
+                  <input
+                    name="email"
+                    type="email"
+                    placeholder="Email"
+                    class="contact__input"
+                  />
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="0"
+                    rows="10"
+                    class="contact__input"
+                  ></textarea>
+                  <input
+                    type="submit"
+                    value="SEND"
+                    class="contact__button button"
+                  />
+                </form>
+              </div>
             </div>
-
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-  </main>
+    <!-- =============  Footer ============= -->
 
-  <!-- =============  Footer ============= -->
-
-  <footer class="footer">
-    <div class="footer_bg">
-      <div class="footer_container container grid">
-        <div>
-          <h1 class="footer_title">Lokesh Gola</h1>
-          <span class="footer_subtitle">Back-end Developer</span>
-        </div>
-        <div class="footer_socials">
-          <a href="https://www.linkedin.com/in/lokesh-gola-712581240/" target="_blank" class="footer_social">
-            <i class="uil uil-linkedin-alt"></i>
-          </a>
-          <a href="https://github.com/LokeshGola" target="_blank" class="footer_social">
-            <i class="uil uil-github-alt"></i>
-          </a>
-          <!-- <a href="" target="_blank" class="footer_social">
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Lokesh Gola</h1>
+            <span class="footer_subtitle">Back-end Developer</span>
+          </div>
+          <div class="footer_socials">
+            <a
+              href="https://www.linkedin.com/in/lokesh-gola-712581240/"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="https://github.com/LokeshGola"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <!-- <a href="" target="_blank" class="footer_social">
                       <i class="uil uil-twitter-alt"></i>
                   </a>  -->
+          </div>
         </div>
+        <p class="footer_copy">
+          &#169; Lokesh Gola | All rights reserved | 2023
+        </p>
       </div>
-      <p class="footer_copy">&#169; Lokesh Gola | All rights reserved | 2023</p>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- ============= SCROLL TOP ============= -->
+    <!-- ============= SCROLL TOP ============= -->
 
-  <a href="#home" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup_icon"></i>
-  </a>
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
 
+    <!-- ============== AUTO-TYPE SCRIPT ============= -->
 
-  <!-- ============== AUTO-TYPE SCRIPT ============= -->
-
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Java Backend Developer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+  <script src="/scripts/index.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script>
-    var typed = new Typed(".auto-type", {
-      strings: ["Java Backend Developer"],
-      typeSpeed: 50,
-      backSpeed: 50,
-      loop: true,
-    });
+    GitHubCalendar(".calendar", "LokeshGola");
+    GitHubCalendar(".calendar", "LokeshGola", { responsive: true });
   </script>
-
-
-</body>
-<script src="/scripts/index.js"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  GitHubCalendar(".calendar", "LokeshGola");
-  GitHubCalendar(".calendar", "LokeshGola", { responsive: true });
-</script>
-
-
 </html>
