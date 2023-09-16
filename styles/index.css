@@ -157,7 +157,7 @@ img {
     font-weight: var(--font-semi);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) { /* 768px */
     .nav__menu {
         position: fixed;
         top: var(--header-height);
@@ -168,7 +168,10 @@ img {
         background-color: var(--second-color);
         transition: 0.5s;
     }
+    
 }
+
+
 
 .nav__item {
     margin-bottom: var(--mb-4);
@@ -561,6 +564,7 @@ img {
 /*==================== SKILLS ====================*/
 .tech__row {
     display: flex;
+    padding: 15px;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -574,6 +578,7 @@ img {
 .skill__box {
     position: relative;
     background-color: var(--container-color);
+    margin: 10px;
     padding: 2.5rem 1.5rem 2.25rem 1.5rem;
     border-radius: 0.25rem;
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
@@ -847,3 +852,33 @@ img {
 .show-scroll {
     bottom: 5rem;
 }
+
+
+/* ========== Media Screens ========== */
+
+@media screen and (max-width:480px) {
+    
+    .work__container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .skill__box{
+        padding: 1.5rem 0.5rem 2rem 0.5rem;
+    }
+     
+} 
+
+@media screen and (min-width:481px) and (max-width:767px){
+    
+    .work__container{    
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .skill__box{
+        padding: 1.5rem 0.5rem 2rem 0.5rem;
+    }
+     
+}
+
+/* ========================== */
