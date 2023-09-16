@@ -862,9 +862,16 @@ img {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
     }
-
     .skill__box{
         padding: 1.5rem 0.5rem 2rem 0.5rem;
+    }
+    .contact__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-container-left{
+        display: flex;
+        justify-content: center;
     }
      
 } 
