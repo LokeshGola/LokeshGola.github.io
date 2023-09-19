@@ -3,7 +3,8 @@
 
 
 body{
-    background-color: #040405;
+    /* background-color: #040405; */
+    background-color: #0d1117;
 }
 :root {
     --header-height: 3rem;
