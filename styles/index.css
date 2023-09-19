@@ -439,6 +439,7 @@ img {
     padding: 1rem;
     border-radius: 0.5rem;
     border: 1.5px solid var(--second-color);
+    background-color: #253138;
     outline: none;
     margin-bottom: var(--mb-4);
 }
@@ -871,9 +872,12 @@ img {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
     }
-    /* .skill__box{
-        padding: 1.5rem 0.5rem 2rem 0.5rem;
-    } */
+    .skill__box{
+        /* padding: 1.5rem 0.5rem 2rem 0.5rem; */
+        padding: 1.5rem 0rem 0.5rem 0rem;
+        /* width: 100px; */
+
+    }
     .contact__container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -982,6 +986,7 @@ img {
 
     .home__container{
         margin-top: 90px;
+        margin-bottom: 70px;
     }
     .home-img {
         position: absolute;
@@ -998,14 +1003,17 @@ img {
         /* margin-top: -100px; */
         margin-top: 20px;
     }
+    .work__container{
+        width: 85%;
+    }
     .project-description{
         font-size: var(--z-normal);
     }
 
     @media screen and (min-width:768px) and (max-width:950px){
         .home-img {
-            width: 280px;
-            bottom: 30%;
+            width: 200px;     
+            right: 10%;
         }
     }
 }
