@@ -692,7 +692,7 @@ img {
     color: var(--first-color);
 }
 .qualification_subtitle, .qualification_calender, .achievement_subtitle{
-    color:darkgrey;
+    color: rgb(106, 117, 128);
 }
 .qualification_title{
     font-weight: bold;
