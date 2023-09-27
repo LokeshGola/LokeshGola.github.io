@@ -688,9 +688,12 @@ img {
     width: 50%;
 }
 .education__title, .achievements__title{
-    text-align: center;
+    /* text-align: center; */
     color: var(--first-color);
+    margin: 10px;
+    padding: 10px;
 }
+
 .qualification_subtitle, .qualification_calender, .achievement_subtitle{
     color: rgb(106, 117, 128);
 }
