@@ -621,10 +621,8 @@ img {
 
 /* modification which i wrote own my own  */
 .skill_grid {
-    /* display: flex; */
     text-align: center;
     justify-content: center;
-    /* border: 2px solid red; */
 }
 
 .container {
