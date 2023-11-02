@@ -626,14 +626,12 @@ img {
 }
 
 .container {
-    /* border : 2px solid green; */
     /* grid-template-columns: repeat(3, 1fr); */
     margin-bottom: var(--mb-4);
 
 }
 
 .stats {
-    /* margin: var(--mb-2); */
     text-align: center;
     display: block;
     justify-content: center;
@@ -644,7 +642,6 @@ img {
 }
 
 .github_stats {
-    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
