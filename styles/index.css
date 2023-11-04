@@ -658,12 +658,10 @@ img {
 @media screen and (max-width:767px) {
 
     .github_stats {
-        /* border: 1px solid green; */
         width: auto;
         height: max-content;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
         /* grid-template-columns: repeat(auto-fit, minmax(119px, auto)); */
         /* grid-template-columns: repeat(1 ,2fr); */
