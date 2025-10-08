@@ -310,12 +310,17 @@ img {
 
 }
 
+.about__container div{
+    padding-bottom: 1rem;
+}
+
 /* .about__subtitle {
     margin-bottom: var(--mb-2);
     margin-top: 20px;    
 } */
 .about__text{
     color: rgb(90, 103, 116);
+    text-align: left;
 }
 
 /* .about__img {
